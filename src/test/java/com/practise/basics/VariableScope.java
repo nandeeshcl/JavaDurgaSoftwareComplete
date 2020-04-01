@@ -18,6 +18,7 @@ class Test {
 
 	void variableScope() {
 
+	
 		int a = 22;
 		// int a=33; ERROR same scope no duplicate
 
