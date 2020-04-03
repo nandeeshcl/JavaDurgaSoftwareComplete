@@ -7,7 +7,7 @@ public class IFStatements {
 
 
 		int i=11;
-		int j ;
+		int j = 0 ;
 		
 		if(i==10)
 		{
