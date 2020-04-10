@@ -5,7 +5,14 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class BaseClass {
 	
+	/*private  BaseClass()
+	{
+		
+	}
+	*/
 	   public static  WebDriver driver=null;
+	   
+	   
 	
 		static WebDriver getDriver()
 		{
@@ -16,7 +23,7 @@ public class BaseClass {
 				//return driver;
 			}
 			
-			/*else
+		/*	else
 			{
 				return driver;
 			}*/

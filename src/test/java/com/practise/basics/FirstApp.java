@@ -16,6 +16,8 @@ class Sample {
 	public static void main2() {
 
 		System.out.println("Hello world 2");
+		
+		
 
 	}
 }

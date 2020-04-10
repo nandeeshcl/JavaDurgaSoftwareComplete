@@ -9,7 +9,9 @@ public class ChromeDriverInitilization extends BaseClass{
 		System.out.println(getDriver());
 		System.out.println(getDriver());
 		
+		/*driver.get("https://www.google.com");
 		driver.get("https://www.google.com");
+		driver.get("https://www.google.com");*/
 		
 		
 		driver.quit();

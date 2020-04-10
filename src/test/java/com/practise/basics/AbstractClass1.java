@@ -11,7 +11,7 @@ abstract class A {
 
 class B extends A {
 
-	public void m2() {
+	public  void m2() {
 
 		System.out.println("method m2");
 

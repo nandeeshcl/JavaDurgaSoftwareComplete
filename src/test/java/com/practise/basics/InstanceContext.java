@@ -6,8 +6,10 @@ public class InstanceContext {
 		
 		InstanceCon i=new InstanceCon();
 		
-		System.out.println(i.a);
-		i.m1();
+		//int f=i.m1();
+		
+		/*System.out.println(i.a);
+		i.m1();*/
 
 	}
 
@@ -19,11 +21,17 @@ class InstanceCon
 		System.out.println("Instance block");
 	}
 	
-	public void m1()
+	public int m1()
 	{
 		System.out.println("method m1");
+		return 10;
 	}
 	
-	int a=10;
+	int a=m1();
+	
+	public InstanceCon()
+	{
+		System.out.println("Instance constructor");
+	}
 	
 }
