@@ -11,7 +11,7 @@ public class IllegalAcessException {
 
 	public static void main(String[] args) {
 	     
-		Illegeal i=new Illegeal();
+		//Illegeal i=new Illegeal();  Error 
 	}
 
 }
